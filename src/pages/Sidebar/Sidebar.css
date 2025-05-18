@@ -1,0 +1,53 @@
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background: #282c34;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    cursor: pointer;
+}
+
+.menu-item {
+    padding: 10px;
+    transition: background 0.3s ease;
+}
+
+.menu-item:hover {
+    background: #3a3f47;
+}
+
+.menu-item span {
+    float: right;
+}
+
+.submenu {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.submenu li {
+    padding: 5px 10px;
+    transition: background 0.3s ease;
+}
+
+.submenu li:hover {
+    background: #61dafb;
+    color: black;
+}
+
+.active {
+    background: #61dafb;
+    color: black;
+}
